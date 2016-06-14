@@ -1,0 +1,24 @@
+.container{
+	max-width:900px;
+}
+.box{
+	border:2px solid #CCC;
+	padding:10px;
+	margin-bottom: 10px;
+}
+.logo{
+	height: 80px;
+}
+.box-larg{
+	margin-top:10px;
+	margin-bottom:20px;
+	border:2px solid #CCC;
+	padding:10px;
+}
+.partners{
+	line-height: 70px;
+	margin-bottom: 30px;
+}
+.footer{
+	height: 50px;
+}
