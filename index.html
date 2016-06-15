@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -9,12 +9,12 @@
 	<title>Common</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link rel="icon" href="images/logo.png" type="image/x-icon">
-     <link rel="stylesheet" type="text/css" href="css/style_slider.css">
+    <link rel="stylesheet" type="text/css" href="css/style_slider.css">
     <!--slider js-->
-     <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.min.js"></script>
     <script type="text/javascript" src="js/script-jsor.js"></script>
    
 </head>
@@ -25,24 +25,32 @@
 	        <!-- Loading Screen -->
 	        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
 	            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-	            <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+	            <div style="position:absolute;display:block;background:url('images/slide/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
 	        </div>
-	        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1400px; height: 400px; overflow: hidden;">
-	            <div data-p="225.00" style="display: none;">
-	                <img data-u="image" src="images/red.jpg" />
+	        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1400px; height: 400px; overflow: hidden;" class="slide-show" id="slide-show">
+	           <!--  <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="images/slide/red.jpg" />
 	                <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;"></div>
 	                <div style="position: absolute; top: 400px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;"></div>
 	                <div data-u="caption" data-t="0" style="position: absolute; top: 100px; left: 600px; width: 445px; height: 400px;">
 	                    
 	                </div>
+	            </div> -->
+	            <!-- <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="images/slide/purple.jpg" />
 	            </div>
 	            <div data-p="225.00" style="display: none;">
-	                <img data-u="image" src="images/purple.jpg" />
+	                <img data-u="image" src="images/slide/purple.jpg" />
+	            </div>
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="images/slide/purple.jpg" />
 	            </div>
 	            <div data-p="225.00" data-po="80% 55%" style="display: none;">
-	                <img data-u="image" src="images/blue.jpg" />
-	            </div>
-	            <a data-u="ad" href="" style="display:none"></a>
+	                <img data-u="image" src="images/slide/blue.jpg" />
+	            </div> -->
+	            
+	            <!-- <a data-u="ad" href="" style="display:none"></a> -->
+
 	        
 	        </div>
 	        <!-- Bullet Navigator -->
@@ -116,5 +124,6 @@
 	</div>
 	<div class="row footer">
 	</div>
+	<script type="text/javascript" src='js/custome.js'>	</script>
 </body>
 </html>
